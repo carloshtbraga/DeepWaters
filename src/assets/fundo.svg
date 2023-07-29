@@ -1,0 +1,10 @@
+<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+  <!-- Fundo preto -->
+  <rect width="100%" height="100%" fill="black" />
+  
+  <!-- Primeiro caminho -->
+  <path d="M 0,700 C 0,700 0,233 0,233 C 216.13333333333333,255.39999999999998 432.26666666666665,277.79999999999995 567,263 C 701.7333333333333,248.20000000000002 755.0666666666666,196.20000000000002 887,185 C 1018.9333333333334,173.79999999999998 1229.4666666666667,203.39999999999998 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#803908" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+  
+  <!-- Segundo caminho -->
+  <path d="M 0,700 C 0,700 0,466 0,466 C 152.53333333333336,490.4 305.0666666666667,514.8 468,491 C 630.9333333333333,467.2 804.2666666666667,395.2 968,383 C 1131.7333333333333,370.8 1285.8666666666668,418.4 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#914007" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+</svg>
