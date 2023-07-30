@@ -23,7 +23,7 @@ export default function DeepWaters() {
     <AudioPlayer src={audio}/>
     <ScrollAudioPlayer src={audio2} stopPreviousMusic={pauseFirstMusic}/>
       <Sky />
-      <Ocean />
+      <Ocean className='animate__animated animate__backInUp'/>
 
       <img src={fundo} alt="" className="ocean-floor" />
     </>
