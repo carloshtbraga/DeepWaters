@@ -71,7 +71,16 @@ button:hover {
 .wave2{
     margin-top: 40px;
     width: 100%;
+    border-bottom: #ffffff 3px solid;
+    border-right: #ffffff 3px solid;
+    border-left: #ffffff 3px solid;
 
+}
+
+.danger{
+    background: none;
+    color: red;
+    width: 50px;
 }
 
 @media (max-width: 700px) {
