@@ -8,7 +8,7 @@ export default function Start() {
       <div className="login-container">
         <h5>You are doing fine.</h5>
         <h5>Ocean is calm.</h5>
-        <h5 className="h5">Do you really wanna go into...</h5>
+        <h5 className="h5">Do you really wanna go into the ...</h5>
         <h2>DeepWaters</h2>
         <br /><br />
         <Link to="/deepwaters">

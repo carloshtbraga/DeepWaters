@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('../assets/spectrum.svg') no-repeat center center fixed;
+    background: url('../assets/endless.svg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ button {
     
     width: 200px;
     padding: 10px;
-    background-color: #c00707;
+    background-color: #850707;
     color: white;
     cursor: pointer;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ button {
     font-weight: 600;}
 
 button:hover {
-    background-color: #1111a9;
+    background-color: #460303;
     transition: 0.5s;
 }
 
