@@ -54,7 +54,7 @@ button {
     
     width: 200px;
     padding: 10px;
-    background-color: #850707;
+    background-color: #c00707;
     color: white;
     cursor: pointer;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ button {
     font-weight: 600;}
 
 button:hover {
-    background-color: #460303;
+    background-color: #6b0404;
     transition: 0.5s;
 }
 
