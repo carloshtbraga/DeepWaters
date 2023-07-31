@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 import "../styles/Start.css";
 import wave2 from "../assets/wave2.svg";
 import danger from "../assets/danger.svg";
+import audio1 from "../assets/audiostart.mp3";
+import AudioPlayer from "../components/AudioPlayer";
+
 
 export default function Start() {
-  return (
+  return (<>
+      <AudioPlayer src={audio1} />
     <div className="start-container">
       <div className="login-container">
         <h5>You are doing fine.</h5>
@@ -20,5 +24,6 @@ export default function Start() {
         <img className="wave2" src={wave2} alt="" />
       </div>
     </div>
+    </>
   );
 }

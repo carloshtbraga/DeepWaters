@@ -6,6 +6,7 @@ const AudioPlayer = ({ src }) => {
     const sound = new Howl({
       src: [src],
       html5: true, // Usar o player de áudio HTML5 quando possível
+      loop: true, // Reproduzir em loop
     });
 
     // Reproduzir o áudio quando o componente for montado

@@ -5,9 +5,9 @@ import gif2 from "../assets/whale.gif";
 import gif3 from "../assets/gif3.gif";
 import gif4 from '../assets/angler.gif'
 import dolhpin from '../assets/dolphin.gif'
-
+// import astro from '../assets/astro.gif'
 import wave from "../assets/wave.svg";
-
+// import shoal from "../assets/shoal.jpg";
 
 export default function Ocean() {
   return (
@@ -35,7 +35,6 @@ export default function Ocean() {
           </h1>
         </div>
         
-
         <div className="divh1 animate__animated animate__backInUp">
           <h1 className="deepwaters ">
             <div className="divimg">
@@ -47,6 +46,7 @@ export default function Ocean() {
         </div>
 
         <div className="divh1 animate__animated animate__backInUp">
+
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={gif3} alt="" className="gif3" />
