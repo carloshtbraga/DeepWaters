@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { Howl } from 'howler';
+import { useEffect } from "react";
+import { Howl } from "howler";
 
 const AudioPlayer = ({ src }) => {
   useEffect(() => {

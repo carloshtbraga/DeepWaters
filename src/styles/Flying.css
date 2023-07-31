@@ -1,0 +1,40 @@
+.fish-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw; /* Ajuste a largura conforme necessário para acomodar o gif */
+    height: 200px;
+  }
+  
+  .fish {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100px; /* Tamanho original do elemento .fish */
+  }
+  
+  .direita {
+    animation: fly-right 15s linear infinite; /* Ajuste a duração conforme necessário */
+  }
+  
+  .esquerda {
+    animation: fly-left 15s linear infinite; /* Ajuste a duração conforme necessário */
+  }
+  
+  @keyframes fly-right {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(100vw + 100px)); /* Valor para percorrer a tela inteira para a direita */
+    }
+  }
+  
+  @keyframes fly-left {
+    from {
+      transform: translateX(calc(100vw + 100px)); /* Valor para iniciar fora da tela à esquerda */
+    }
+    to {
+      transform: translateX(0); /* Voltar à posição original */
+    }
+  }
+  

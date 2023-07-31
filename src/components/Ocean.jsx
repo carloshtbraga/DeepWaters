@@ -1,4 +1,4 @@
-
+import Flying from './Flying'
 
 import gif1 from "../assets/peixegif.gif";
 import gif2 from "../assets/whale.gif";
@@ -7,14 +7,21 @@ import gif4 from '../assets/angler.gif'
 import dolhpin from '../assets/dolphin.gif'
 // import astro from '../assets/astro.gif'
 import wave from "../assets/wave.svg";
-// import shoal from "../assets/shoal.jpg";
+import passador1 from "../assets/passador1.gif";
+import passador8 from "../assets/passador8.gif";
+import passador6 from "../assets/passador6.gif";
+import passador7 from "../assets/passador7.gif";
+
 
 export default function Ocean() {
   return (
     <>
     <img src={wave} alt="" className="wave" />
       <div className="ocean">
-
+          <Flying gif={passador8} lado='direita'/>
+          <Flying gif={passador6} lado='esquerda'/>
+          <Flying gif={passador1} lado='direita'/>
+          <Flying gif={passador7} lado='esquerda'/>
         <div className="divh1 animate__animated animate__backInUp">
           <h1 className="deepwaters ">
             <div className="divimg">

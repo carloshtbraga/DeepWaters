@@ -6,7 +6,7 @@
     align-items: center;
     height: 100vh;
     /* background: url('../assets/endless.svg') no-repeat center center fixed; */
-    background-color: rgb(238, 219, 194);
+    background: url('../assets/fundo3.jpg');
     background-size: cover;
 }
 
