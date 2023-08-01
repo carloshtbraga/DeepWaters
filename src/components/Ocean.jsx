@@ -15,6 +15,11 @@ import estranho2 from "../assets/estranho2.gif";
 import eua from "../assets/uk.png";
 import brasil from "../assets/br.png";
 
+import vector1 from '../assets/Vectors/vector1.jpg'
+import vector2 from '../assets/Vectors/vector2.png'
+import vector3 from '../assets/Vectors/vector3.png'
+import vector4 from '../assets/Vectors/vector4.png'
+
 import passador10 from "../assets/passador10.gif";
 import { useState } from "react";
 
@@ -32,6 +37,8 @@ import {
   text6en,
   text6pt,
 } from "../Texts/Texts.jsx";
+import Flying2 from "./Flying2";
+import Flying3 from "./Flying3";
 
 export default function Ocean() {
   const [en, setEn] = useState(true);
@@ -44,12 +51,10 @@ export default function Ocean() {
     <>
       <img src={wave} alt="" className="wave" />
       <div className="ocean">
-        <Flying gif={passador8} lado="direita" />
-        <Flying gif={passador6} lado="esquerda" />
-        <Flying gif={passador10} lado="esquerda" />
-        <Flying gif={passador1} lado="direita" />
-        <Flying gif={passador7} lado="esquerda" />
-        <div className="divh1 animate__animated animate__backInUp">
+        <Flying gif={vector1} lado="direita" />
+        <Flying gif={vector2} lado="esquerda" />
+        <Flying gif={vector4} lado="direita" />
+        <div className="divh1 animate__animated animate__fadein">
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={gif1} alt="" className="gif1" />
@@ -65,7 +70,9 @@ export default function Ocean() {
             {en ? text1en : text1pt}
           </h1>
         </div>
-
+        <Flying2 gif={vector1} lado="direita" />
+        <Flying2 gif={vector2} lado="esquerda" />
+        <Flying2 gif={vector4} lado="direita" />
         <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
@@ -83,7 +90,9 @@ export default function Ocean() {
             {en ? text2en : text2pt}
           </h1>
         </div>
-
+        <Flying3 gif={vector1} lado="direita" />
+        <Flying3 gif={vector2} lado="esquerda" />
+        <Flying3 gif={vector4} lado="direita" />
         <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">

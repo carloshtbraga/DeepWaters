@@ -1,0 +1,19 @@
+.fish-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100vw; /* Ajuste a largura conforme necessário para acomodar o gif */
+    height: 200px;
+    background-color: rgb(2, 9, 58);
+  }
+    /* rgb(7, 5, 61); */
+  .fish2 {
+    background-color: rgb(2, 9, 58);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100px; /* Tamanho original do elemento .fish */
+
+  }
+  
+ 
+  

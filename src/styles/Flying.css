@@ -5,12 +5,13 @@
     height: 200px;
     background-color: none;
   }
-  
+    /* rgb(7, 5, 61); */
   .fish {
     position: absolute;
     top: 50%;
     left: 0;
     width: 100px; /* Tamanho original do elemento .fish */
+
   }
   
   .direita {
