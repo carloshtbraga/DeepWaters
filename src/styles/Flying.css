@@ -2,15 +2,15 @@
     position: relative;
     overflow: hidden;
     width: 100vw; /* Ajuste a largura conforme necessário para acomodar o gif */
-    height: 200px;
+    height: 350px;
     background-color: none;
   }
-    /* rgb(7, 5, 61); */
+
   .fish {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100px; /* Tamanho original do elemento .fish */
+    width: 60px; /* Tamanho original do elemento .fish */
 
   }
   

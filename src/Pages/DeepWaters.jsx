@@ -41,7 +41,7 @@ export default function DeepWaters() {
       <ScrollAudioPlayer src={audio2} stopPreviousMusic={pauseFirstMusic} />
       <Sky />
       <Ocean  />
-        <DeepFlying gif={loco} lado="direita" />
+       
       <div className="divastro">
         <img src={astro} alt="" className="astro" />
       </div>

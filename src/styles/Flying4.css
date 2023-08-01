@@ -1,0 +1,20 @@
+.fish-container4 {
+    position: relative;
+    overflow: hidden;
+    width: 100vw; /* Ajuste a largura conforme necessário para acomodar o gif */
+    height: 800px;
+    background-color: rgb(1, 3, 20);
+  }
+  .fish4 {
+    background-color:rgb(1, 3, 20);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 350px; 
+
+  
+
+  }
+  
+ 
+  

@@ -6,10 +6,7 @@ import gif3 from "../assets/gif3.gif";
 import gif4 from "../assets/angler.gif";
 
 import wave from "../assets/wave.svg";
-import passador1 from "../assets/passador1.gif";
-import passador8 from "../assets/passador8.gif";
-import passador6 from "../assets/passador6.gif";
-import passador7 from "../assets/passador7.gif";
+
 import passador9 from "../assets/passador9.gif";
 import estranho2 from "../assets/estranho2.gif";
 import eua from "../assets/uk.png";
@@ -17,10 +14,14 @@ import brasil from "../assets/br.png";
 
 import vector1 from '../assets/Vectors/vector1.jpg'
 import vector2 from '../assets/Vectors/vector2.png'
-import vector3 from '../assets/Vectors/vector3.png'
-import vector4 from '../assets/Vectors/vector4.png'
 
-import passador10 from "../assets/passador10.gif";
+import vector4 from '../assets/Vectors/vector4.png'
+import shark from '../assets/Vectors/shark.png'
+import bvector2 from '../assets/Vectors/bvector2.webp'
+
+
+
+import squid from "../assets/Vectors/squid.png";
 import { useState } from "react";
 
 import {
@@ -39,6 +40,7 @@ import {
 } from "../Texts/Texts.jsx";
 import Flying2 from "./Flying2";
 import Flying3 from "./Flying3";
+import Flying4 from "./Flying4";
 
 export default function Ocean() {
   const [en, setEn] = useState(true);
@@ -90,9 +92,9 @@ export default function Ocean() {
             {en ? text2en : text2pt}
           </h1>
         </div>
-        <Flying3 gif={vector1} lado="direita" />
-        <Flying3 gif={vector2} lado="esquerda" />
-        <Flying3 gif={vector4} lado="direita" />
+        <Flying3 gif={shark} lado="esquerda" />
+        <Flying3 gif={bvector2} lado="esquerda" />
+     
         <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
@@ -109,7 +111,7 @@ export default function Ocean() {
             {en ? text3en : text3pt}
           </h1>
         </div>
-
+        <Flying4 gif={squid} lado="esquerda" />
         <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
