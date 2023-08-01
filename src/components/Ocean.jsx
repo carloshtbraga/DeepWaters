@@ -115,9 +115,9 @@ export default function Ocean() {
               {" "}
               www.devs4good.com.br
             </a>
-            <img src={estranho2} alt="" className="gif5" />
 
             <div className="divimg">
+            <img src={estranho2} alt="" className="gif5" />
               {/* <img src={astro} alt=""  className="astro"/> */}
             </div>
           </h1>
