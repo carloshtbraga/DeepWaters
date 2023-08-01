@@ -14,8 +14,7 @@ import passador9 from "../assets/passador9.gif";
 import estranho2 from "../assets/estranho2.gif";
 
 import passador10 from "../assets/passador10.gif";
-import loco from "../assets/loco.gif";
-import DeepFlying from "./DeepFlying";
+
 
 export default function Ocean() {
   return (
@@ -41,17 +40,19 @@ export default function Ocean() {
           </h1>
         </div>
 
-        <div className="divh1 animate__animated animate__backInUp">
+        <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={gif2} alt="" className="gif1" />
             </div>
+       
             You are about to get into deep waters. Forget everything you know...
             things will work differently from now on. But maybe,thats what you
             really wanted. So you keep going.
           </h1>
         </div>
-        <div className="divh1 animate__animated animate__backInUp">
+
+        <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={passador9} alt="" className="gif1" />
@@ -63,7 +64,8 @@ export default function Ocean() {
           </h1>
         </div>
 
-        <div className="divh1 animate__animated animate__backInUp">
+
+        <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={gif3} alt="" className="gif3" />
@@ -76,7 +78,8 @@ export default function Ocean() {
           </h1>
         </div>
 
-        <div className="divh1 animate__animated animate__backInUp">
+     
+        <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
             <div className="divimg">
               <img src={gif4} alt="" className="gif4" />
@@ -92,7 +95,8 @@ export default function Ocean() {
           </h1>
         </div>
        
-        <div className="divh1 animate__animated animate__backInUp">
+
+        <div className="divh1 animate__animated animate__fadeIn">
           <h1 className="deepwaters ">
        
 
