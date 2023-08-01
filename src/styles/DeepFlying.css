@@ -1,20 +1,20 @@
-.fish-container {
+.fish-containerd {
     position: relative;
     overflow: hidden;
     width: 100vw; /* Ajuste a largura conforme necessário para acomodar o gif */
-    height: 200px;
-    background-color: none;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
   }
   
-  .fish {
+  .fishd {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100px; /* Tamanho original do elemento .fish */
+    width: 150px; /* Tamanho original do elemento .fish */
   }
   
   .direita {
-    animation: fly-right 30s linear infinite; /* Ajuste a duração conforme necessário */
+    animation: fly-right 100s linear infinite; /* Ajuste a duração conforme necessário */
   }
   
   .esquerda {

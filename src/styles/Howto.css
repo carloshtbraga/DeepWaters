@@ -74,15 +74,22 @@
 
 @media (max-width: 700px) {
     .login-containerh {
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
+   
     
         width: 250px;
         height: 400px;
-        border: #ffffff 3px solid;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      
     }
+
+    .h5h {
+        font-family: monospace;
+        text-align: center;
+        font-size: 13px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0);;
+    }
+    
 }

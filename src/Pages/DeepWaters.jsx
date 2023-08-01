@@ -9,6 +9,8 @@ import ScrollAudioPlayer from "../components/ScrollAudioPlayer";
 import { useRef } from "react";
 import astro from "../assets/astro.gif";
 import "../styles/DeepWaters.css";
+import DeepFlying from "../components/DeepFlying";
+import loco from "../assets/loco.gif";
 
 export default function DeepWaters() {
   const audioPlayerRef = useRef();
@@ -25,6 +27,7 @@ export default function DeepWaters() {
       <ScrollAudioPlayer src={audio2} stopPreviousMusic={pauseFirstMusic} />
       <Sky />
       <Ocean  />
+        <DeepFlying gif={loco} lado="direita" />
       <div className="divastro">
         <img src={astro} alt="" className="astro" />
       </div>
