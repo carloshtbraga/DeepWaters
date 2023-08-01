@@ -1,140 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.ceu {
+  position: relative;
+  background-color: #060c3b;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.estrela {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
+  box-shadow: 100px 100px rgb(255, 255, 255); /* Cor das estrelas (branco) */
+  opacity: 0;
+}
+
+.estrela:nth-child(1) {
+  animation: estrela-anim 4s infinite;
+  top: 10%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
+  left: 10%;
+}
+
+.estrela:nth-child(2) {
+  animation: estrela-anim 5s infinite;
+  top: 30%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
+  left: 30%;
+}
+
+.estrela:nth-child(3) {
+  animation: estrela-anim 3s infinite;
+  top: 20%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
+  left: 70%;
+}
+
+.estrela:nth-child(4) {
+  animation: estrela-anim 6s infinite;
+  top: 5%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
+  left: 50%;
+}
+
+@keyframes estrela-anim {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
   }
-  
-  .ceu {
-    position: relative;
-    background-color: #060c3b;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-  }
-  
-  .estrela {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 2px;
-    background-color: transparent;
-    box-shadow: 100px 100px rgb(255, 255, 255); /* Cor das estrelas (branco) */
+  100% {
+    transform: translate(20vw, 20vh) scale(0);
     opacity: 0;
   }
-  
-  .estrela:nth-child(1) {
-    animation: estrela-anim 4s infinite;
-    top: 10%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
-    left: 10%;
-  }
-  
-  .estrela:nth-child(2) {
-    animation: estrela-anim 5s infinite;
-    top: 30%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
-    left: 30%;
-  }
-  
-  .estrela:nth-child(3) {
-    animation: estrela-anim 3s infinite;
-    top: 20%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
-    left: 70%;
-  }
-  
-  .estrela:nth-child(4) {
-    animation: estrela-anim 6s infinite;
-    top: 5%; /* Ajuste o valor aqui para posicionar a estrela mais no alto */
-    left: 50%;
-  }
-  
-  @keyframes estrela-anim {
-    0% {
-      transform: translate(0, 0) scale(1);
-      opacity: 1;
-    }
-    100% {
-      transform: translate(20vw, 20vh) scale(0);
-      opacity: 0;
-    }
-  }
-  
-  
-  .wave{
-  
-    background-color: #020a46
-  }
-  
-  .ocean{
-    background: rgb(2,10,70);
-    background: linear-gradient(180deg, rgba(2,10,70,1) 9%, rgba(0,0,0,1) 77%);
-    width: 100%;
-    height: 15200px;
-  }
+}
 
-  
-  .deepwaters{
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 1500px;
-    color: rgb(146, 144, 144);
-    text-shadow: 1px 1px 2px black;
-    font-family: monospace;
-    background: none;
-  }
-  
-  .divh1{
-    background: none;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .gif1{
-    width: 200px;
-    background: none;
-    margin-bottom: 30px;
-  }
-  
-  .divimg{
-    background: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .gif3{
-    width: 500px;
-    background: none;
-    margin-bottom: 30px;
-  }
-  
-  .gif4{
-    width: 380px;
-    background: none;
-    margin-bottom: 30px;
-  }
-  
-  .astro{
-    width: 40%;
-    background: none;
-  
-  }
-  
-  .divastro {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  .body-hidden {
-    overflow: hidden;
-    visibility: hidden;
-  }
+.wave {
+  background-color: #020a46;
+}
 
-  .gif5{
-    width: 700px;
-background-color: transparent;
-margin-bottom: 30px;
-    text-align: center
-    ;
-  }
+.ocean {
+  background: rgb(2, 10, 70);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 10, 70, 1) 9%,
+    rgba(0, 0, 0, 1) 77%
+  );
+  width: 100%;
+  height: 15200px;
+}
+
+.deepwaters {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 1500px;
+  color: rgb(146, 144, 144);
+  text-shadow: 1px 1px 2px black;
+  font-family: monospace;
+  background: none;
+}
+
+.divh1 {
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.gif1 {
+  width: 200px;
+  background: none;
+  margin-bottom: 30px;
+}
+
+.divimg {
+  background: none;
+  display: flex;
+  justify-content: center;
+}
+
+.gif3 {
+  width: 500px;
+  background: none;
+  margin-bottom: 30px;
+}
+
+.gif4 {
+  width: 380px;
+  background: none;
+  margin-bottom: 30px;
+}
+
+.astro {
+  width: 40%;
+  background: none;
+}
+
+.divastro {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.body-hidden {
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.gif5 {
+  width: 700px;
+  background-color: transparent;
+  margin-bottom: 30px;
+  text-align: center;
+}

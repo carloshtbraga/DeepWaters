@@ -38,4 +38,18 @@
       transform: translateX(0); /* Voltar à posição original */
     }
   }
+
+
+  .buttonen{
+    background: none;
+    border: none;
+  }
+
+  .buttonen:hover{
+    cursor: pointer;
+    background: none;
+  }
   
+  .bandeira{
+    width: 25px;
+  }
